@@ -1,0 +1,7 @@
+<li data-input-trigger>
+	<label class="fs-field-label fs-anim-upper" for="<%= @id %>"><%= @pregunta %></label>
+	<div class="fs-radio-group fs-radio-custom clearfix fs-anim-lower">
+		<span><input id="<%= @id %>a" name="<%= @id %>" type="radio" value="dulce"/><label for="<%= @id %>a" class="op-1 btnQuestion"><%= @respuestaa %></label></span>
+		<span><input id="<%= @id %>b" name="<%= @id %>" type="radio" value="salado"/><label for="<%= @id %>b" class="op-2 btnQuestion"><%= @respuestab %></label></span>	
+	</div>
+</li>

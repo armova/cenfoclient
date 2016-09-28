@@ -1,0 +1,44 @@
+{
+	"name": "cenfoclient",
+	"description": "",
+	"version": "0.0.30",
+	"threevot": {
+		"version": "30",
+		"screens": {
+			"0-320": "desktop",
+			"320-900": "desktop",
+			"900-1200": "desktop",
+			"1200-5000": "desktop"
+		},
+		"extensions": [
+			".coffee",
+			".eco",
+			".html"
+		],
+		"transforms": [
+			"browserify-eco",
+			"brfs"
+		],
+		"external": {},
+		"gitDependencies": {},
+		"paths": {
+			"sourceBucket": "source.3vot.com",
+			"productionBucket": "3vot.com"
+		},
+		"uploadSource": true,
+		"build": true,
+		"distFolder": "dist",
+		"pathsToExclude": [
+			"node_modules"
+		],
+		"uploadApp": true
+	},
+	"dependencies": {
+		"3vot": "0.1.4",
+		"insert-css": "0.2.0",
+		"3vot-model": "0.1.0",
+		"brfs": "0.0.8",
+		"bowser": "0.7.1",
+		"browserify-eco": "~0.2.4"
+	}
+}
